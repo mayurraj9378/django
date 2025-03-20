@@ -548,6 +548,9 @@
                             ★★★★☆ <span>(4.2)</span>
                         </div>
                     </div>
+                    <a href = "{% url 'update_product' pro.id %}"><button style ="color : Green, bg-color: Red">Update Product</button></a>
+                    <a href = "{% url 'delete_product' pro.id %}"><button style "color : Red , bg-color: Green">Delete Product</button></a>
+
                     <button class="btn">
                         <span class="btn-icon">🛒</span>
                         Add to Cart
